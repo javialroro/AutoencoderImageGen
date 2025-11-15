@@ -1,0 +1,9 @@
+# @package _global_
+
+defaults:
+  - /model: classic_ae
+
+
+experiment_name: "classic_ae_ssim"
+
+

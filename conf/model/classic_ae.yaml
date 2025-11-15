@@ -1,0 +1,13 @@
+_target_: __main__.ClassicAE
+name: "classic_autoencoder"
+architecture: "classic"
+
+# Arquitectura
+input_channels: 3
+input_size: 128
+latent_dim: 128
+
+
+
+
+

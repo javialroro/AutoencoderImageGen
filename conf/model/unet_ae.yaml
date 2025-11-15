@@ -1,0 +1,10 @@
+_target_: __main__.UNetAE
+name: "unet_autoencoder"
+architecture: "unet"
+
+# Igual que classic pero con skip connections
+input_channels: 3
+input_size: 128
+latent_dim: 128
+loss_function: "l1"  # Default loss
+

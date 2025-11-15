@@ -1,0 +1,9 @@
+# @package _global_
+
+# Hereda configuración del modelo classic_ae
+defaults:
+  - /model: classic_ae
+  - /loss: l1
+
+
+experiment_name: "classic_ae_l1"

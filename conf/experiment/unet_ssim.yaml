@@ -1,0 +1,4 @@
+defaults:
+  - /model: unet_ae
+  
+experiment_name: "unet_ae_ssim"

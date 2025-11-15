@@ -1,0 +1,8 @@
+# @package _global_
+
+defaults:
+  - /model: unet_ae
+  - /loss: l1
+
+
+experiment_name: "unet_ae_l1"
