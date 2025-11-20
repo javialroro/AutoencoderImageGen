@@ -8,9 +8,8 @@ defaults:
 seed: 42
 
 dataset:
-  _target_: __main__.MVTecDataModule
+  _target_: __main__.MVTecMultiClassDataModule
   root: data
-  clase: cable
   batch_size: 32
   img_size: 128
   num_workers: 4
