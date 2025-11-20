@@ -1,7 +1,7 @@
 defaults:
   - trainer: default
   - logger: wandb
-  - experiment: classic_l2
+  - experiment: unet_l2
   - _self_
 
 # General
@@ -13,6 +13,5 @@ dataset:
   batch_size: 32
   img_size: 128
   num_workers: 4
+
 accelerator: "gpu"  # cambiar a "cpu" si no tienes GPU
-devices: 1
-precision: 16

@@ -1,0 +1,5 @@
+_target_: lightning.pytorch.loggers.WandbLogger
+project: tarea5-autoencoder
+name: ${model.name}_${loss._target_}
+log_model: false
+save_dir: ./wandb/
