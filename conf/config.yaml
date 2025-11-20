@@ -7,7 +7,13 @@ defaults:
 # General
 seed: 42
 
-# Hardware
+dataset:
+  _target_: __main__.MVTecDataModule
+  root: data
+  clase: cable
+  batch_size: 32
+  img_size: 128
+  num_workers: 4
 accelerator: "gpu"  # cambiar a "cpu" si no tienes GPU
 devices: 1
 precision: 16
