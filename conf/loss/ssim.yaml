@@ -1,0 +1,5 @@
+_target_: conf.loss.losses.SSIMLoss
+reduction: mean
+window_size: 11
+channel: 3
+sigma: 1.5
