@@ -2,7 +2,6 @@ defaults:
   - trainer: default
   - logger: wandb
   - experiment: unet_l2
-  - loss: 12
   - _self_
 
 # General
