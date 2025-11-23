@@ -2,6 +2,8 @@
 
 defaults:
   - /model: classic_ae
+  - /loss: ssim_l1
+
 
 experiment_name: "classic_ae_ssim_l1"
 

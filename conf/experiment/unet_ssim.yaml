@@ -1,4 +1,5 @@
 defaults:
   - /model: unet_ae
+  - /loss: ssim
   
 experiment_name: "unet_ae_ssim"

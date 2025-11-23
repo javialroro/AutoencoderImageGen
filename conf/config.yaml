@@ -14,4 +14,4 @@ dataset:
   img_size: 128
   num_workers: 4
 
-accelerator: "auto"  # cambiar a "cpu" si no tienes GPU
+accelerator: "gpu"  # cambiar a "cpu" si no tienes GPU
